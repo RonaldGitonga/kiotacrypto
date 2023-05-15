@@ -1,0 +1,112 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background: hsla(190, 47%, 22%, 1);
+
+  background: linear-gradient(135deg, hsla(190, 47%, 22%, 1) 28%, hsla(277, 41%, 22%, 1) 92%);
+  
+  background: -moz-linear-gradient(135deg, hsla(190, 47%, 22%, 1) 28%, hsla(277, 41%, 22%, 1) 92%);
+  
+  background: -webkit-linear-gradient(135deg, hsla(190, 47%, 22%, 1) 28%, hsla(277, 41%, 22%, 1) 92%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1e4b54", endColorstr="#3D214F", GradientType=1 );
+}.gradient-bg-services {
+  background: hsla(276, 30%, 30%, 1);
+
+  background: linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  background: -moz-linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#523665", endColorstr="#1E4B54", GradientType=1 );
+ 
+}
+.gradient-bg-connect-wallet{
+  background: hsla(190, 47%, 22%, 1);
+
+background: linear-gradient(315deg, hsla(190, 47%, 22%, 1) 72%, hsla(275, 29%, 30%, 1) 99%);
+
+background: -moz-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 72%, hsla(275, 29%, 30%, 1) 99%);
+
+background: -webkit-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 72%, hsla(275, 29%, 30%, 1) 99%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E4B54", endColorstr="#503662", GradientType=1 );
+}
+.gradient-bg-transactions {
+  background: hsla(190, 47%, 22%, 1);
+
+  background: linear-gradient(315deg, hsla(190, 47%, 22%, 1) 46%, hsla(276, 30%, 30%, 1) 83%);
+  
+  background: -moz-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 46%, hsla(276, 30%, 30%, 1) 83%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 46%, hsla(276, 30%, 30%, 1) 83%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E4B54", endColorstr="#523665", GradientType=1 );
+}
+.gradient-bg-footer {
+  background: hsla(276, 30%, 30%, 1);
+
+  background: linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  background: -moz-linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(276, 30%, 30%, 1) 8%, hsla(190, 47%, 22%, 1) 95%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#523665", endColorstr="#1E4B54", GradientType=1 );
+}
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background: hsla(190, 47%, 22%, 1);
+
+  background: linear-gradient(315deg, hsla(190, 47%, 22%, 1) 8%, hsla(277, 33%, 18%, 1) 66%);
+  
+  background: -moz-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 8%, hsla(277, 33%, 18%, 1) 66%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(190, 47%, 22%, 1) 8%, hsla(277, 33%, 18%, 1) 66%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E4B54", endColorstr="#321F3E", GradientType=1 );
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
